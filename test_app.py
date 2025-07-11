@@ -4,4 +4,5 @@ def test_home():
     tester = app.test_client()
     response = tester.get('/')
     assert response.status_code == 200
-    assert b'hi, have updated this' in response.data
+    assert b'hi4, have updated this' in response.data
+
